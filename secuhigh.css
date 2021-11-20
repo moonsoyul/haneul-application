@@ -1,0 +1,157 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000; 
+ }
+
+
+ .intro_bg{
+     background: url("pic/pastel.jpg");
+     position: static;
+     width:100%;
+     height:719px;
+ }
+
+ .header{
+     width: 80%;
+     margin: auto;
+    
+     height: 10px;
+ }
+
+
+
+.intro_text{
+    width:100%;
+    margin-top: 50px;
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.intro_text>h1,
+.intro_text>h4{
+    color:#000;
+}
+
+.icons{
+    display: flex;
+    margin: auto;
+    width:800px;
+    height: 600px;
+   
+}
+
+.icons>li{
+    flex: 1;
+    height: 500px;
+    background: #fff;
+    border-radius: 34px;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(228, 228, 228, 0.3);
+    
+}
+.icons>li>.icon_img {
+    margin-top: 25px;
+    margin-left: 64px;
+    text-align: center;
+    width: 180px;
+    object-fit: cover;
+
+    
+    
+}
+
+
+.icons>li:not(:last-child){
+    margin-right:20px;
+}
+
+
+.contents1_bold1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.contents1_bold2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contents1_bold3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.contents1_bold4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.contents3 {
+    font-size: 14px;
+    font-weight: 100
+}
+
+.icons .contents3 {
+    width: 200px;
+    margin: auto;
+    letter-spacing:-1px;
+}
+
+
+.icons .clicknew {
+   width: 100px; 
+   height: 35px;
+   background: rgb(228, 228, 228) ; 
+   color: #000;
+   line-height: 30px;
+   margin: 25px auto;
+   margin-top: 18px;
+   font-size: 16px;
+   font-weight: bold; 
+   border-radius: 30px;
+   box-shadow: 0 4px 16px rgba(228, 228, 228, 0.3);
+}
+
+.icons .clicknew:focus {
+    outline: 0;
+}
+
+.icons .clicknew:hover{
+    background-color: rgba(228, 228, 228, 0.9) ;
+    box-shadow: 0 2px 4px rgba(228, 228, 228, 0.6)
+}
+
+.icons .click {
+    width: 100px; 
+    height: 35px;
+    background: rgb(228, 228, 228) ; 
+    color: #000; 
+    line-height: 30px;
+    margin: 25px auto;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    
+}
+
+.icons .click:focus {
+    outline: 0;
+}
+
+.icons .click:hover{
+    background-color: rgba(228, 228, 228, 0.9) ;
+    box-shadow: 0 2px 4px rgba(228, 228, 228, 0.6)
+}
+
