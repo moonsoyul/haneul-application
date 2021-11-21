@@ -13,7 +13,7 @@
      background: url("pastel.jpg");
      position: static;
      width:100%;
-     height:719px;
+     height:1496px;
  }
 
  .header{
@@ -39,7 +39,6 @@
 }
 
 .icons{
-    display: flex;
     margin: auto;
     width:800px;
     height: 600px;
