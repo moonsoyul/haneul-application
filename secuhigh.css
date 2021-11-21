@@ -27,7 +27,7 @@
 
 .intro_text{
     width:100%;
-    margin-top: 50px;
+    margin-top: 131px;
     
     text-align: center;
     font-size: 40px;
@@ -69,7 +69,7 @@
 
 .icons>li:not(:last-child){
     margin-right:20px;
-    margin-top: 70px;
+    margin-top: 135px;
 }
 
 
