@@ -27,8 +27,7 @@
 
 .intro_text{
     width:100%;
-    margin-top: 105px;
-    letter-spacing: 15px;
+    margin-top: 74px;
     
     text-align: center;
     font-size: 60px;
@@ -48,9 +47,9 @@
 
 .icons>li{
     flex: 1;
-    height: 521px;
+    height: 542px;
     background: #fff;
-    border-radius: 34px;
+    border-radius: 60px;
     margin-top: 48px;
     text-align: center;
     box-shadow: 0 4px 16px rgba(228, 228, 228, 0.3);
@@ -70,7 +69,7 @@
 
 .icons>li:not(:last-child){
     margin-right:20px;
-    margin-top: 128px;
+    margin-top: 92px;
 }
 
 
